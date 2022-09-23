@@ -1,0 +1,60 @@
+.accordian_body {
+  max-width: 1000px;
+  margin: 0em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.8em 0em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #4caf50;
+  margin: 10px 0px;
+  padding: 0px 10px;
+  align-items: center;
+  max-width: 650px;
+  border-radius: 10px;
+  min-width: 650px;
+}
+
+.faq {
+  display: flex;
+  align-items: top;
+
+  justify-content: space-between;
+  min-width: 650px;
+}
+
+.faq-text {
+  display: none;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.btns .minus {
+  display: none;
+}
+
+.faq.active .btns .minus {
+  display: block;
+}
+
+.faq.active .btns .plus {
+  display: none;
+}
+
+.plus,
+.minus {
+  margin-top: 20px;
+}
